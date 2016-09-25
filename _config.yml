@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 陈思录
+subtitle: Stay Foolish, Stay Hungry
 description:
-author: John Doe
-language:
+author: chenbinpeng
+language: zh-Hans
 timezone:
 
 # URL
