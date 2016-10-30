@@ -69,9 +69,20 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: 
-    github: https://github.com/chenbinpeng/chenbinpeng.github.io.git
-    coding: https://git.coding.net/chenbinpeng/chenbinpeng.git
-  branch: master
+#  type: git
+#  repo: 
+#    github: https://github.com/chenbinpeng/chenbinpeng.github.io.git
+#    coding: https://git.coding.net/chenbinpeng/chenbinpeng.git
+#  branch: master
+    type: ftpsync
+    host: qxu1590170457.my3w.com
+    user: qxu1590170457
+    pass: 
+    remote: /htdocs
+    port: 21
+    ignore: ['wiki','logreport']
+    connections: 1
+    vervose: false
+    
+ 
  
