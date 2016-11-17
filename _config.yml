@@ -77,10 +77,10 @@ deploy:
     type: ftpsync
     host: qxu1590170457.my3w.com
     user: qxu1590170457
-    pass: 
+    pass: ftp8642256
     remote: /htdocs
     port: 21
-    ignore: ['wiki','logreport']
+    ignore: ['wiki','logreport','baidu_verify_OgsRLRTBi7.html']
     connections: 1
     vervose: false
     
